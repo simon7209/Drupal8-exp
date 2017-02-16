@@ -22,7 +22,7 @@ Drupal8的导航菜单一般是先在`info.yml`文件里声明区块，再在`tw
 
 代码如下：
 
-    ```html
+    
     ;(function($, window, undefined) {
       // outside the scope of the jQuery plugin to
       // keep track of all dropdowns
@@ -64,7 +64,7 @@ Drupal8的导航菜单一般是先在`info.yml`文件里声明区块，再在`tw
       };
       $('[data-hover="dropdown"]').dropdownHover();
     })(jQuery, this);
-    ```
+    
 
 注： 在插件前面加了个分号，增加了插件的兼容性，因为可能上一个js代码没写分号，如果在此不加分号则可能因为没换行导致js出错。
 

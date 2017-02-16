@@ -22,8 +22,7 @@ Drupal8的导航菜单一般是先在`info.yml`文件里声明区块，再在`tw
 
 代码如下：
 
-    ```
-
+    ```javascript
     ;(function($, window, undefined) {
       // outside the scope of the jQuery plugin to
       // keep track of all dropdowns
